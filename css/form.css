@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+}
+form input{
+    margin-left: 120px;
+    margin-top: -17px;
+}
+input#date{
+    width: 100px;
+}
+

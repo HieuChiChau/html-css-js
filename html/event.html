@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="../js/event.js"></script>
+    <link rel="stylesheet" href="../css/event.css">
+    
+    <title>Test Event</title>
+</head>
+
+<body>
+    <form>
+        <label for="fname">First Name</label>
+        <input id="fname" type="text" size="25" required><br>
+        <label for="lname">Last Name</label>
+        <input id="lname" type="text" size="25" required><br>
+        <label for="sex">Sex</label>
+        <label>
+            <input id="male" type="radio" value="Male" required>Male
+        </label>
+        <label>
+            <input id="female" type="radio" value="Female" required>Female
+        </label><br>
+        <label for="nationality">Nationality</label>
+        <select id="nationality">
+            <option value="Australia">Australia</option>
+            <option value="Singapore">Singapore</option>
+            <option value="United States">United States</option>
+            <option value="Viet Nam">Viet Nam</option>
+        </select>
+        <label>Full Name</label>
+        <p id="disname"></p><br>
+        <label>Sex</label>
+        <p id="dissex"></p><br>
+        <label>Full Name</label>
+        <p id="disnationality"></p><br>
+    </form>
+</body>
+
+</html>

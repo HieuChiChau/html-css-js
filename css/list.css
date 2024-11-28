@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: relative;
+    display: flex;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid #ccc;
+}
+th{
+    height: 50px;
+}
+td{
+    height: 40px;
+}
+
+.cart{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20%;
+    text-align: center;
+    margin: 10px auto;
+    position: absolute;
+    left: 50%;
+    z-index: 1000;
+    display: none;
+}
+
+
+
