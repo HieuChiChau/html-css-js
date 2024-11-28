@@ -1,19 +1,19 @@
 $(document).ready(function(){
 
-    $("#fname, #lname").change(function(){
-        const firstName = $("#fname").val();
-        const lastName = $("#lname").val();
+    $("#first-name, #last-name").change(function(){
+        const firstName = $("#first-name").val();
+        const lastName = $("#last-name").val();
 
-        $("#disname").text(firstName + " " + lastName);
+        $("#display-name").text(firstName + " " + lastName);
     })
 
     $('#male, #female').change(function () {
         const sex = $("input[type='radio']:checked").val(); 
-        $("#dissex").text(sex);
+        $("#display-sex").text(sex);
     });
 
     $("#nationality").change(function(){
         const nationality = $(this).val();
-        $("#disnationality").text(nationality);
+        $("#display-nationality").text(nationality);
     })
 })

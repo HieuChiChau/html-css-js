@@ -3,22 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.21.0/jquery.validate.min.js" integrity="sha512-KFHXdr2oObHKI9w4Hv1XPKc898mE4kgYx58oqsc/JqqdLMDI4YjOLzom+EMlW8HFUd0QfjfAvxSL6sEq/a42fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <script src="../js/formvalid.js"></script>
+    <script src="../js/formvalid.js"></script>
     <link rel="stylesheet" href="../css/form.css">
+
     <title>JQuery1</title>
 </head>
 <body>
-    <form>
-        <label for="fname">First Name</label>
-        <input id="fname" type="text" size="25" required><br>
-        <label for="lname">Last Name</label>
-        <input id="lname" type="text" size="25" required><br>
-        <label for="yold">Year old</label>
-        <input id="yold" type="number" min="15" max="150" required><br>
+    <form class="main-form">
+        <label for="first-name">First Name</label>
+        <input id="first-name" name="first_name" type="text"><br>
+
+        <label for="last-name">Last Name</label>
+        <input id="last-name" name="last_name" type="text"><br>
+
+        <label for="year-old">Year old</label>
+        <input id="year-old" name="year_old" type="number"><br>
+
         <label for="date">Start Date</label>
-        <input id="date" type="date" required><br>
+        <input id="date" name="date" type="date"><br>
+
         <label for="phone">Phone number</label>
-        <input id="phone" pattern="^\?+\d+$" required><br>
-        <button class="btn">Submit</button>
+        <input id="phone" name="phone" ><br>
+
+        <button type="submit" class="btn">Submit</button>
     </form>
 </body>
 </html>

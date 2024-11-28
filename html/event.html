@@ -13,11 +13,13 @@
 </head>
 
 <body>
-    <form>
-        <label for="fname">First Name</label>
-        <input id="fname" type="text" size="25" required><br>
-        <label for="lname">Last Name</label>
-        <input id="lname" type="text" size="25" required><br>
+    <form class="form-container">
+        <label for="first_name">First Name</label>
+        <input id="first-name" type="text" size="25" required><br>
+
+        <label for="last_name">Last Name</label>
+        <input id="last-name" type="text" size="25" required><br>
+
         <label for="sex">Sex</label>
         <label>
             <input id="male" type="radio" value="Male" required>Male
@@ -25,6 +27,7 @@
         <label>
             <input id="female" type="radio" value="Female" required>Female
         </label><br>
+
         <label for="nationality">Nationality</label>
         <select id="nationality">
             <option value="Australia">Australia</option>
@@ -33,11 +36,11 @@
             <option value="Viet Nam">Viet Nam</option>
         </select>
         <label>Full Name</label>
-        <p id="disname"></p><br>
+        <p id="display-name"></p><br>
         <label>Sex</label>
-        <p id="dissex"></p><br>
-        <label>Full Name</label>
-        <p id="disnationality"></p><br>
+        <p id="display-sex"></p><br>
+        <label>Nationality</label>
+        <p id="display-nationality"></p><br>
     </form>
 </body>
 
